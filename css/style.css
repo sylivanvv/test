@@ -548,7 +548,7 @@ html{
     margin-right: 13px;
     width: 40px;
     height: 17px;
-    background: url(/img/form-top-link1.png) left center no-repeat;
+    background: url(./img/form-top-link1.png) left center no-repeat;
 }
 .form-top-links:hover .form-top-link1{
     background-position: -40px 0px;
@@ -557,7 +557,7 @@ html{
     margin-right: 13px;
     width: 35px;
     height: 26px;
-    background: url(/img/form-top-link2.png) left center no-repeat;
+    background: url(./img/form-top-link2.png) left center no-repeat;
 }
 .form-top-links:hover .form-top-link2{
     background-position: -36px 0px;
@@ -566,7 +566,7 @@ html{
     margin-right: 13px;
     width: 26px;
     height: 26px;
-    background: url(/img/form-top-link3.png) left center no-repeat;
+    background: url(./img/form-top-link3.png) left center no-repeat;
 }
 .form-top-links:hover .form-top-link3{
     background-position: -26px 0px;
@@ -575,7 +575,7 @@ html{
     margin-right: 13px;
     width: 19px;
     height: 26px;
-    background: url(/img/form-top-link4.png) left center no-repeat;
+    background: url(./img/form-top-link4.png) left center no-repeat;
 }
 .form-top-links:hover .form-top-link4{
     background-position: -19px 0px;
@@ -584,7 +584,7 @@ html{
     margin-right: 13px;
     width: 28px;
     height: 26px;
-    background: url(/img/form-top-link5.png) left center no-repeat;
+    background: url(./img/form-top-link5.png) left center no-repeat;
 }
 .form-top-links:hover .form-top-link5{
     background-position: -28px 0px;
@@ -666,7 +666,7 @@ html{
   text-overflow: '';
   -ms-appearance: none;
   appearance: none!important;
-  background-image: url(/img/select-arr.png);
+  background-image: url(./img/select-arr.png);
   background-color: #fff;
   background-position: right 25px center;
   background-repeat: no-repeat;
@@ -1118,16 +1118,16 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     height: 16px;
 }
 .footer-vk{
-    background: url(/img/footer-vk-sprite.png)  no-repeat left center;
+    background: url(./img/footer-vk-sprite.png)  no-repeat left center;
 }
 .footer-facebook{   
-    background: url(/img/footer-facebook-sprite.png)  no-repeat left center;
+    background: url(./img/footer-facebook-sprite.png)  no-repeat left center;
 }
 .footer-twitter{
-    background: url(/img/footer-twitter-sprite.png)  no-repeat left center;
+    background: url(./img/footer-twitter-sprite.png)  no-repeat left center;
 }
 .footer-youtube{
-    background: url(/img/footer-youtube-sprite.png)  no-repeat left center;
+    background: url(./img/footer-youtube-sprite.png)  no-repeat left center;
 }
 .footer-socia-media-element:hover{
     border: 1px solid #ffc925;
