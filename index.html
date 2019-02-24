@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic-ext"
+        rel="stylesheet">
+    <title>Test</title>
+</head>
+<body>
+    <header class="header-block">
+        <div class="header-full-width">
+            <nav class="nav-container main-center">
+                <ul id="sliknav-top-menu" class="sliknav_menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Ссылка 1</a></li>
+                    <li><a href="#">Ссылка 2</a></li>
+                    <li><a href="#">Ссылка 3</a></li>
+                    <li>
+                        <img src="img/burger.png" alt="">Меню
+                        <ul class="sliknav_second_menu">
+                            <li><a href="">ССылка 1</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 2</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 3</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 4</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 5</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 6</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 7</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Ссылка 1</a></li>
+                        <li><a href="#">Ссылка 2</a></li>
+                        <li><a href="#">Ссылка 3</a></li>
+                    </ul>
+                </div>
+                <div class="nav-button"><button id="modal-nav" class="nav-log-in button with-icon btn-primary">
+                        <img class="button-icon" src="img/button-icon.png" alt>Вход</button>
+                </div>
+            </nav>
+        </div>
+        <div id="hidden-content" class="sign-in-modal-bg">
+            <div class="sign-in-modal-content">
+                <div class="close"><img src="img/modal-close-icon.png" alt=""></div>
+                <div class="pop-up-sign-up">
+                    <form action="">
+                        <div class="sign-in-form-container">
+                            <h3>Вход в личный кабинет</h3>
+                            <div id='email-container'>Ваш email</div>
+                            <input required id="sign-in-email" placeholder="mikel_ivanov98@gmail.com" type="email">
+                            <div id='pass-comtainer'>Пароль</div>
+                            <input required id="sign-in-pass" placeholder="*********" type="password">
+                            <div class="rememberMe-container">
+                                <input id="rememberMe" type="checkbox">
+                                <label class="rememberMe" for="rememberMe">
+                                    Запомнить меня</label>
+                            </div>
+                        </div>
+                        <div class="sign-up-links">
+                            <a href="">Забыли пароль?</a>
+                            <a href="">Регистрация</a>
+                        </div>
+                        <button onclick="validateForm('sign-in-email', 'sign-in-pass')"
+                            class="button modal-sign-in-submit" type="submit">Войти в личный кабинет</button>
+                    </form>
+                </div>
+                <div class="sign-in-with">
+                    <h3>Войти с помощью</h3>
+                    <button class="facebook-modal-icon button with-icon" type="submit" class="button with-icon"><img
+                            src="img/facebook-modal-icon.png" alt=""> Facebook</button>
+                    <button type="submit" class="button with-icon twitter-modal-icon"><img
+                            src="img/twitter-modal-icon.png"></img> Twitter</button>
+                    <button type="submit" class="button with-icon goodle-modal-icon">
+                        <img src="img/goodle-modal-icon.png" alt="">Google</button>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-contcts-block main-center">
+            <div class="callback-modal-bg">
+                <div class="callback-modal-content">
+                    <div class="callback-close"><img src="img/modal-close-icon.png" alt=""></div>
+                    <div class="pop-up-callback">
+                        <h3>Перезвоните мне</h3>
+                        <form id="sign-form" action="">
+                            <div>Номер телефона
+                                <input id="callback-phone"
+                                    pattern="^\+380(\s+)?\(?(17|25|29|33|44)\)?(\s+)?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"
+                                    value="+380 (__) ___-__-__" placeholder="+38(0__)___-__-__" type="tel">
+                            </div>
+                            <button class="callback-modal-button button" type="submit">
+                                Перезвоните мне
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-contacts-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="nav-contacts-phone">
+                <a href="tel:+3809817000740">+3809817000740</a></div>
+            <div class="nav-contacts-phone">
+                <a href="tel:+3809817000740">+3809817000740</a></div>
+            <div class="nav-contacts-callback">
+                <button id="callback-nav" class="n-callback button with-icon">
+                    <img class="button-icon" src="img/callback-icont.png" alt="">Перезвонить мне
+                </button>
+            </div>
+            <div class="nav-contacts-links">
+                <div class="nav-contacts-link compare-link">
+                    <a href="#">
+                        <span><img src="img/compare.png" alt=""></span><span>Сравнение</span>
+                    </a>
+                </div>
+                <div class="nav-contacts-link fav-link">
+                    <a href="#">
+                        <span><img src="img/star.png" alt=""></span><span>Избранное</span>
+                    </a>
+                </div>
+                <div class="nav-contacts-link basket-link">
+                    <a href="#">
+                        <div class="pseudo-basket-link">
+                            <div class="pseudo-basket-link-with-triagle">
+                                5
+                            </div>
+                        </div>
+                        <span><img src="img/basket.png" alt=""></span><span>Корзина</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-block main-center">
+        <div class="main-block-middle">
+            <aside class="main-aside">
+                <div class="main-aside-header button-grad">
+                    <button class="main-aside-button button">
+                        <div class="main-aside-toggle main-aside-toggle-burger">
+                            <img src="img/burger.png" alt="">
+                        </div>
+                        <div class="main-aside-toggle-title button-grad">
+                            Меню
+                        </div>
+                    </button>
+                </div>
+                <div class="main-aside-dropdown">
+                    <nav class="main-aside-dropdown-nav">
+                        <ul>
+                            <li><a href="">ССылка 1</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 2</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 3</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 4</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 5</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 6</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                            <li><a href="">ССылка 7</a><span class="dropdown-arrow">
+                                    <img src="img/aside-arrow.png" alt="">
+                                </span></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <div class="filter-form">
+                <div class="filter-search-bar">
+                    <form action="index.html">
+                        <input type="search" class="search-bar" placeholder="Поиск по сайту">
+                        <select class="search-bar-select" name="select" id="">
+                            <option selected disabled>Все категории</option>
+                            <option value="1">Item1</option>
+                            <option value="2">Item2</option>
+                            <option value="3">Item3</option>
+                            <option value="4">Item4</option>
+                        </select>
+                        <button type="submit" class="search-bar-button button"><span>Поиск</span></button>
+                    </form>
+                </div>
+                <div class="filter-section">
+                    <form action="">
+                        <div class="filter-section-nav">
+                            <nav>
+                                <ul class="filter-section-nav-menu">
+                                    <li class="form-top-links">
+                                        <div class="form-top-link1"></div>Ссылка 1
+                                    </li>
+                                    <li class="form-top-links">
+                                        <div class="form-top-link2"></div>Ссылка 2
+                                    </li>
+                                    <li class="form-top-links">
+                                        <div class="form-top-link3"></div>Ссылка 3
+                                    </li>
+                                    <li class="form-top-links">
+                                        <div class="form-top-link4"></div>Ссылка 4
+                                    </li>
+                                    <li class="form-top-links">
+                                        <div class="form-top-link5"></div>Ссылка 5
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="filter-section-tabs">
+                            <ul class="tabs">
+                                <li>
+                                    <input type="radio" name="tabs" id="tab-1" checked>
+                                    <label for="tab-1">Tab 1</label>
+                                    <div class="tab-content">
+                                        <div class="filter-tabs-flex-container">
+                                            <select name="">
+                                                    <option selected disabled>Select 1</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <select name="">
+                                                    <option selected disabled>Select 2</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                        <select name="">
+                                                    <option selected disabled>Select 3</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                        <select name="">
+                                                    <option selected disabled>Select 4</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                        <select name="">
+                                                    <option selected disabled>Select 5</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                        <select name="">
+                                                    <option selected disabled>Select 6</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                        <select name="">
+                                                    <option selected disabled>Select 7</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <div class="filter-price-container">
+                                                <div class="filter-by-price">
+                                                    Цена
+                                                </div>
+                                                <div class="filter-from">
+                                                    <input placeholder="50" type="text">
+                                                </div>
+                                                <div class="filter-to">
+                                                    <input placeholder="25000" class="" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="tabs" id="tab-2">
+                                    <label for="tab-2">Tab 2</label>
+                                    <div class="tab-content">
+                                        <div class="tab-content2 filter-tabs-flex-container">
+                                            <select name="">
+                                                    <option selected disabled>Select 1</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <select name="">
+                                                    <option selected disabled>Select 2</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <select name="">
+                                                    <option selected disabled>Select 3</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <select name="">
+                                                    <option selected disabled>Select 4</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <select name="">
+                                                    <option selected disabled>Select 4</option>
+                                                    <option value="1">Item1</option>
+                                                    <option value="2">Item2</option>
+                                                    <option value="3">Item3</option>
+                                                    <option value="4">Item4</option>
+                                                </select>
+                                            <div class="filter-price-container">
+                                                <div class="filter-by-price">
+                                                    Цена
+                                                </div>
+                                                <div class="filter-from">
+                                                    <input placeholder="50" type="text">
+                                                </div>
+                                                <div class="filter-to">
+                                                    <input placeholder="25000" class="" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="filter-section-buttons">
+                            <div class="filter-section-reset">
+                                <button class="button with-icon" type="reset"><span><img src="/img/reset-icon.png"
+                                            alt=""></span>Очистить фильтр</button>
+                            </div>
+                            <div class="filter-section-submit">
+                                <button class="filter-section-button-submit button button-grad" type="submit">
+                                    Применить фильтр
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="main-block-goods">
+            <div class="main-block-goods-title">
+                <h2>Карточки товаров</h2>
+                <div class="main-goods-read-more">
+                    <a href="" class="catalog-link">
+                        <span>Ссылка в каталоге</span><span><img src="img/read-more.png" alt=""></span> </div>
+                </a>
+            </div>
+        </div>
+        <div class="goods-grid">
+            <div class="grid-items grid-item1">
+                <div class="grid-item-title">
+                    <span class="grid-mark">Mark</span>
+                    <p><a href="">Антифриз Fosser Antifreeze
+                            FA 12 Readymix 1 л Concentrat, Germany</a></p>
+                    <span class="review">
+                        <span>
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                        </span>
+                        <span class="numbOfRewiew"><a href="">Отзывы(10)</a> </span>
+                        <span class="numbOfThing">В наличии: 24шт.</span>
+                    </span>
+                </div>
+                <div class="goods-description">
+                    <div class="aside-desc">
+                        <span>
+                            <img src="img/summer.png" alt="">
+                            летняя
+                        </span>
+                        <span>
+                            <img src="img/passangerCar.png" alt="">
+                            легковая
+                        </span>
+                        <span>
+                            <img src="img/new.png" alt="">
+                            новая
+                        </span>
+                    </div>
+                    <div class="goods-img">
+                        <img src="img/goods1.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="goods-tags">
+                        <div class="goods-tag goods-new">Новинка</div>
+                        <div class="goods-tag goods-hot">Хит</div>
+                        <div class="goods-tag goods-sale">Скидка</div>
+                    </div>
+                </div>
+                <div class="goods-price">
+                    <span class="goods-price-new">
+                        <span>599</span> грн.
+                    </span>
+                    <span class="goods-price-old">1 250грн.</span>
+                </div>
+                <div class="goods-button">
+                    <button class="buyIt with-icon button-grad">
+                        <span class="buyIt-white-basket"><img src="img/white-basket.png" alt=""></span>
+                        <span>Купить товар</span>
+                    </button>
+                </div>
+                <div class="goods-bottom-links">
+                    <span class="goods-bottom-compare"><img src="img/compare.png" alt=""><a href="">Сравнить
+                            товар</a></span>
+                    <span class="goods-bottom-to-fav">
+                        <img src="img/star.png" alt="">
+                        <a href="">В избранное</a>
+                    </span>
+                </div>
+            </div>
+            <div class="grid-items grid-item2">
+                <div class="grid-item-title">
+                    <span class="grid-mark">Mark</span>
+                    <p><a href="">Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany</a></p>
+                    <span class="review">
+                        <span>
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/empty-star.png" alt="">
+                            <img src="img/empty-star.png" alt="">
+                        </span>
+                        <span class="numbOfRewiew"><a href="">Отзывы(10)</a></span>
+                        <span class="numbOfThing">В наличии: 24шт.</span>
+                    </span>
+                </div>
+                <div class="goods-description">
+                    <div class="aside-desc">
+                        <span>
+                            <img src="img/summer.png" alt="">
+                            летняя
+                        </span>
+                        <span>
+                            <img src="img/passangerCar.png" alt="">
+                            легковая
+                        </span>
+                        <span>
+                            <img src="img/new.png" alt="">
+                            новая
+                        </span>
+                    </div>
+                    <div class="goods-img">
+                        <img src="img/goods2.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="goods-tags">
+                        <div class="goods-tag goods-new">Новинка</div>
+                        <div class="goods-tag goods-hot">Хит</div>
+                    </div>
+                </div>
+                <div class="goods-price">
+                    <span class="goods-price-new">
+                        <span>599</span> грн.
+                    </span>
+                    <span class="goods-price-old">1 250грн.</span>
+                </div>
+                <div class="goods-button">
+                    <button class="buyIt with-icon button-grad">
+                        <span class="buyIt-white-basket"><img src="img/white-basket.png" alt=""></span>
+                        <span>Купить товар</span>
+                    </button>
+                </div>
+                <div class="goods-bottom-links">
+                    <span class="goods-bottom-compare"><img src="img/compare.png" alt=""><a href="">Сравнить
+                            товар</a></span>
+                    <span class="goods-bottom-to-fav">
+                        <img src="img/star.png" alt="">
+                        <a href="">В избранное</a>
+                    </span>
+                </div>
+            </div>
+            <div class="grid-items grid-item3">
+                <div class="grid-item-title">
+                    <span class="grid-mark">Mark</span>
+                    <p><a href="">Антифриз Fosser Antifreeze FA 12 Readymix 1 л Concentrat, Germany</a></p>
+                    <span class="review">
+                        <span>
+                            <img src="img/empty-star.png" alt="">
+                            <img src="img/empty-star.png" alt="">
+                            <img src="img/empty-star.png" alt="">
+                            <img src="img/empty-star.png" alt="">
+                            <img src="img/empty-star.png" alt="">
+                        </span>
+                        <span class="numbOfRewiew"><a href="">Отзывы(10)</a></span>
+                        <span class="numbOfThing">В наличии: 24шт.</span>
+                    </span>
+                </div>
+                <div class="goods-description">
+                    <div class="aside-desc">
+                        <span>
+                            <img src="img/summer.png" alt="">
+                            летняя
+                        </span>
+                        <span>
+                            <img src="img/passangerCar.png" alt="">
+                            легковая
+                        </span>
+                        <span>
+                            <img src="img/new.png" alt="">
+                            новая
+                        </span>
+                    </div>
+                    <div class="goods-img">
+                        <img src="img/goods3.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="goods-tags">
+                        <div class="goods-tag goods-new">Новинка</div>
+                    </div>
+                </div>
+                <div class="goods-price">
+                    <span class="goods-price-new">
+                        <span>9 570</span> грн.
+                    </span>
+                    <span class="goods-price-old">11 250грн.</span>
+                </div>
+                <div class="goods-button">
+                    <button class="buyIt with-icon button-grad">
+                        <span class="buyIt-white-basket"><img src="img/white-basket.png" alt=""></span>
+                        <span>Купить товар</span>
+                    </button>
+                </div>
+                <div class="goods-bottom-links">
+                    <span class="goods-bottom-compare"><img src="img/compare.png" alt=""><a href="">Сравнить
+                            товар</a></span>
+                    <span class="goods-bottom-to-fav">
+                        <img src="img/star.png" alt="">
+                        <a href="">В избранное</a>
+                    </span>
+                </div>
+            </div>
+            <div class="grid-items grid-item4">
+                <div class="grid-item-title">
+                    <span class="grid-mark">Mark</span>
+                    <p><a href="">Антифриз Fosser Antifreeze
+                            FA 12 Readymix 1 л Concentrat, Germany</a></p>
+                    <span class="review">
+                        <span>
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                            <img src="img/full-star.png" alt="">
+                        </span>
+                        <span class="numbOfRewiew"><a href="">Отзывы(10)</a> </span>
+                        <span class="numbOfThing">В наличии: 24шт.</span>
+                    </span>
+                </div>
+                <div class="goods-description">
+                    <div class="aside-desc">
+                        <span>
+                            <img src="img/summer.png" alt="">
+                            летняя
+                        </span>
+                        <span>
+                            <img src="img/passangerCar.png" alt="">
+                            легковая
+                        </span>
+                        <span>
+                            <img src="img/new.png" alt="">
+                            новая
+                        </span>
+                    </div>
+                    <div class="goods-img">
+                        <img src="img/goods4.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="goods-tags">
+                        <div class="goods-tag"></div>
+                    </div>
+                    <div class="goods-price">
+                        <span class="goods-price-new">
+                            <span>599</span> грн.
+                        </span>
+                    </div>
+                </div>
+                <div class="goods-button">
+                    <button class="buyIt with-icon button-grad">
+                        <span class="buyIt-white-basket"><img src="img/white-basket.png" alt=""></span>
+                        <span>Купить товар</span>
+                    </button>
+                </div>
+                <div class="goods-bottom-links">
+                    <span class="goods-bottom-compare"><img src="img/compare.png" alt=""><a href="">Сравнить
+                            товар</a></span>
+                    <span class="goods-bottom-to-fav">
+                        <img src="img/star.png" alt="">
+                        <a href="">В избранное</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-flex-grid main-center">
+            <div class="footer-block-1">
+                <h3>Блок 1</h3>
+                <div class="footer-block-1-email-form">
+                    <h3>Будьте в курсе новостей и новинок!</h3>
+                    <h2>Подписывайтесь на рассылку</h2>
+                    <div class="footer-search-form">
+                        <form action="" class="footer-search-form">
+                            <input class="search-bar footer-search-bar" type="e-mail"
+                                placeholder="Укажите свой email для подписки">
+                            <button type="button" id="email-nav" class="footer-email-button button">Подписаться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="email-succ-modal-bg">
+                <div class="email-succ-close"><img src="img/modal-close-icon.png" alt=""></div>
+                <div class="email-succ-modal-content">
+                    <div class="email-succ-callback">
+                        <h3>Вы успешно подписаны ны рассылку!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-link-block-1">
+                <h3>Блок ссылок 1</h3>
+                <div class="footer-link-block-1-container">
+                    <ul>
+                        <li><a href="">Ссылка 1</a></li>
+                        <li><a href="">Ссылка 2</a></li>
+                        <li><a href="">Ссылка 3</a></li>
+                        <li><a href="">Ссылка 4</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-block-2">
+                <h3>Блок 2</h3>
+                <div class="footer-block-2-container">
+                    <ul>
+                        <li><a href="">Ссылка 1</a></li>
+                        <li><a href="">Ссылка 2</a></li>
+                        <li><a href="">Ссылка 3</a></li>
+                        <li><a href="">Ссылка 4</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-link-block-3">
+                <h3>Блок ссылок 3</h3>
+                <div class="footer-link-block-3-container">
+                    <ul>
+                        <li><a href="">Ссылка 1</a></li>
+                        <li><a href="">Ссылка 2</a></li>
+                        <li><a href="">Ссылка 3</a></li>
+                        <li><a href="">Ссылка 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links main-center">
+            <div class="footer-links-logo">
+                <img src="img/footer-logo.png" alt="">
+            </div>
+            <div class="footer-links-copyright">© Copyrith 2017. Тестовое задание Wezom</div>
+            <div class="footer-links-social-media">
+                <a href="">
+                    <div class="footer-socia-media-element">
+                        <div class="footer-icon footer-vk"></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="footer-socia-media-element">
+                        <div class="footer-icon footer-facebook"></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="footer-socia-media-element">
+                        <div class="footer-icon footer-twitter"></div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="footer-socia-media-element">
+                        <div class="footer-icon footer-youtube"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="footer-links-made-by">
+                <span class="wezom-logo">
+                    <img src="img/wezom-logo.png" alt="">
+                </span>
+                <span class="wezom-txt">
+                    <span class="wezom-made-by">Разработка тестового</span>
+                    <span class="wezom-link">
+                        <a href="https://wezom.com.ua/" target="_blank">Wezom Agency</a>
+                    </span>
+                </span>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
