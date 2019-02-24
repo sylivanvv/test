@@ -414,12 +414,14 @@ html{
     width: 100%;
 }
 .main-aside-button{
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     background-color: #db7200;
     padding: 0;
+    height: 50px;
 }
 .main-aside-toggle{
     padding-right: 23px;
@@ -427,9 +429,12 @@ html{
     width: 20%;
 }
 .main-aside-toggle-title{
-    padding: 18px 185px 17px 23px;
+    padding: 0px 185px 0px 23px;
     height: 100%;
     width: 80%;
+    display: flex;
+    align-items: center;
+
 }
 .button-grad{
     font-weight: bold;
