@@ -497,7 +497,7 @@ html{
      text-overflow: '';
      -ms-appearance: none;
      appearance: none!important;
-     background-image: url(/img/search-select-arr.png);
+     background-image: url(../img/search-select-arr.png);
      background-color: #fff;
      background-position: right 25px center;
      background-repeat: no-repeat;
@@ -576,6 +576,7 @@ html{
 .form-top-links:hover .form-top-link3{
     background-position: -26px 0px;
 }
+
 .form-top-link4{
     margin-right: 13px;
     width: 19px;
