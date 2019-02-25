@@ -651,9 +651,6 @@ html{
 .tab-content2{
     justify-content: space-around;
 }
-.filter-tabs-flex-container select:hover{
-    border-bottom: 1px solid #ff8500;
-}
 .filter-tabs-flex-container select{
     min-width: 190px;
     width: 23%;
@@ -662,8 +659,6 @@ html{
     padding-left: 15px;
     border: unset;
     margin-top: 24px;
-    border-bottom: 1px solid white;
-    padding-bottom: 1px;
 }
 .filter-tabs-flex-container select{
  -webkit-appearance: none;
@@ -688,7 +683,6 @@ html{
     align-items: center;
     width: 21%;
     border-bottom: unset !important;
-    height: 38px;
 }
 .filter-price-container div{
     margin-top: 0;
@@ -713,6 +707,14 @@ input{
 }
 .filter-tabs-flex-container input{
     text-align: center;
+}
+.filter-tabs-flex-container select::after,
+.filter-tabs-flex-container input::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    padding-top: 1px;
 }
 .filter-tabs-flex-container input::placeholder{
     text-align: center;
