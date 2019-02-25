@@ -13,7 +13,7 @@ function showModal(id, modalContent, bgClassName, closeName){
             modalBg.style.display = "none";
         });
         window.onclick = function(event) {
-            if (event.target == modalBg || event.target == closeModalContent)
+            if (event.target == modalBg)
              {
                 modalBg.style.display = "none";
             }
