@@ -706,7 +706,6 @@ html{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 21%;
 }
 .filter-price-container div{
     margin-top: 0;
@@ -1181,9 +1180,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .filter-form{
         width: 72%;;
     }
-    .filter-price-container{
-        width: 23%;
-    }
     .filter-tabs-flex-container select{
         min-width: 180px;
         width: 23%;
@@ -1197,9 +1193,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
 @media only screen and (max-width: 1630px){
     .filter-form{
         width: 71%;
-    }
-    .filter-price-container{
-        width: 22%;
     }
     .filter-tabs-flex-container select{
         min-width: 170px;
@@ -1221,9 +1214,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     }
     .filter-form{
         width: 70%;
-    }
-    .filter-price-container{
-        width: 23%;
     }
     .filter-from input, .filter-to input{
     width: 50px;
@@ -1250,10 +1240,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
 @media only screen and (max-width: 1486px){
     .filter-form{
         width: 67%;
-    }
-    .filter-price-container{
-        width: 22%;
-    }  
+    } 
     .filter-tabs-flex-container select{
         min-width: 150px;
     }
@@ -1283,9 +1270,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     }
     .filter-form{
         width: 67%;
-    }
-    .filter-price-container{
-        width: 23%;
     }  
     .filter-tabs-flex-container select{
         min-width: 130px;
@@ -1359,9 +1343,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .filter-by-price{
         height: unset;
     }
-    .filter-price-container div {
-        margin-top: unset;
-    }
     .buyIt{
         height: 30px;
         width: 80%;
@@ -1393,9 +1374,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         padding-right: 23px;
         padding-left: 25px;
     }
-    .filter-price-container{
-        width: 22%;
-    }  
     .goods-tag{
         width: 45px;
     }
@@ -1479,9 +1457,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .filter-tabs-flex-container select{
         min-width: 100px;
     }    
-    .filter-price-container{
-        width: 21%;
-    }  
     .filter-from input, .filter-to input{
         width: 30px;
     }
@@ -1615,9 +1590,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .filter-tabs-flex-container select{
         min-width: 85px;
     }    
-    .filter-price-container{
-        width: 22%;
-    }  
     .filter-from input, .filter-to input{
         width: 22px;
     }
@@ -1667,10 +1639,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     }    
     .filter-from input, .filter-to input{
         width: 35px;
-    }
-    .filter-price-container{
-        width: 22%;
-    }  
+    } 
     .nav-button{
         position: absolute;
         height: unset;
@@ -1834,9 +1803,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .filter-tabs-flex-container select{
         min-width: 115px;
     }   
-    .filter-price-container{
-        width: 27%;
-    }
     .grid-items{
         width: 100%;
         border-left: unset;
