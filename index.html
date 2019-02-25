@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="nav-button"><button id="modal-nav" class="nav-log-in button with-icon btn-primary">
+                <div class="nav-button"><button onclick="showModal('modal-nav', 'sign-in-modal-content', '.sign-in-modal-bg', '.close');" id="modal-nav" class="nav-log-in button with-icon btn-primary">
                         <img class="button-icon" src="img/button-icon.png" alt>Вход</button>
                 </div>
             </nav>
@@ -125,7 +125,7 @@
             <div class="nav-contacts-phone">
                 <a href="tel:+3809817000740">+3809817000740</a></div>
             <div class="nav-contacts-callback">
-                <button id="callback-nav" class="n-callback button with-icon">
+                <button onclick="showModal('callback-nav', 'callback-modal-content', '.callback-modal-bg', '.callback-close');" id="callback-nav" class="n-callback button with-icon">
                     <img class="button-icon" src="img/callback-icont.png" alt="">Перезвонить мне
                 </button>
             </div>
@@ -654,7 +654,7 @@
                         <div class="footer-search-form">
                             <input class="search-bar footer-search-bar" type="e-mail"
                                 placeholder="Укажите свой email для подписки">
-                            <button id="email-nav" class="footer-email-button button">Подписаться</button>
+                            <button onclick="showModal('email-nav', 'email-succ-modal-content', '.email-succ-modal-bg', '.email-succ-close');" id="email-nav" class="footer-email-button button">Подписаться</button>
                         </div>
                     </div>
                 </div>

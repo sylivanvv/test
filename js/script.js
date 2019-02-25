@@ -20,9 +20,6 @@ function showModal(id, modalContent, bgClassName, closeName){
           }
     }
 }
-showModal('modal-nav', 'sign-in-modal-content', '.sign-in-modal-bg', '.close');
-showModal('callback-nav', "callback-modal-content", '.callback-modal-bg', '.callback-close');
-showModal('email-nav', 'email-succ-modal-content', '.email-succ-modal-bg', '.email-succ-close');
 window.onload = function(){
     MaskedInput({
         elm: document.getElementById('callback-phone'),
