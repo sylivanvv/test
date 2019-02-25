@@ -6,5 +6,5 @@
  .slicknav_nav .slicknav_arrow{display: none;}.sliknav_second_menu{margin: 0;}
  .sliknav_second_menu li {display: flex; flex-flow: row nowrap; align-items: center;} 
  .sliknav_menu > li:last-child img{
-    margin-right: 15px;
+    padding-right: 15px;
  }

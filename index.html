@@ -57,46 +57,46 @@
                         <li><a href="#">Ссылка 3</a></li>
                     </ul>
                 </div>
+                <div id="hidden-content" class="sign-in-modal-bg">
+                    <div class="sign-in-modal-content">
+                        <div class="close"><img src="img/modal-close-icon.png" alt=""></div>
+                        <div class="pop-up-sign-up">
+                            <form action="">
+                                <div class="sign-in-form-container">
+                                    <h3>Вход в личный кабинет</h3>
+                                    <div id='email-container'>Ваш email</div>
+                                    <input required id="sign-in-email" placeholder="mikel_ivanov98@gmail.com" type="email">
+                                    <div id='pass-comtainer'>Пароль</div>
+                                    <input required id="sign-in-pass" placeholder="*********" type="password">
+                                    <div class="rememberMe-container">
+                                        <input id="rememberMe" type="checkbox">
+                                        <label class="rememberMe" for="rememberMe">
+                                            Запомнить меня</label>
+                                    </div>
+                                </div>
+                                <div class="sign-up-links">
+                                    <a href="">Забыли пароль?</a>
+                                    <a href="">Регистрация</a>
+                                </div>
+                                <button onclick="validateForm('sign-in-email', 'sign-in-pass')"
+                                    class="button modal-sign-in-submit" type="submit">Войти в личный кабинет</button>
+                            </form>
+                        </div>
+                        <div class="sign-in-with">
+                            <h3>Войти с помощью</h3>
+                            <button class="facebook-modal-icon button with-icon" type="submit" class="button with-icon"><img
+                                    src="img/facebook-modal-icon.png" alt=""> Facebook</button>
+                            <button type="submit" class="button with-icon twitter-modal-icon"><img
+                                    src="img/twitter-modal-icon.png"></img> Twitter</button>
+                            <button type="submit" class="button with-icon goodle-modal-icon">
+                                <img src="img/goodle-modal-icon.png" alt="">Google</button>
+                        </div>
+                    </div>
+                </div>
                 <div class="nav-button"><button id="modal-nav" class="nav-log-in button with-icon btn-primary">
                         <img class="button-icon" src="img/button-icon.png" alt>Вход</button>
                 </div>
             </nav>
-        </div>
-        <div id="hidden-content" class="sign-in-modal-bg">
-            <div class="sign-in-modal-content">
-                <div class="close"><img src="img/modal-close-icon.png" alt=""></div>
-                <div class="pop-up-sign-up">
-                    <form action="">
-                        <div class="sign-in-form-container">
-                            <h3>Вход в личный кабинет</h3>
-                            <div id='email-container'>Ваш email</div>
-                            <input required id="sign-in-email" placeholder="mikel_ivanov98@gmail.com" type="email">
-                            <div id='pass-comtainer'>Пароль</div>
-                            <input required id="sign-in-pass" placeholder="*********" type="password">
-                            <div class="rememberMe-container">
-                                <input id="rememberMe" type="checkbox">
-                                <label class="rememberMe" for="rememberMe">
-                                    Запомнить меня</label>
-                            </div>
-                        </div>
-                        <div class="sign-up-links">
-                            <a href="">Забыли пароль?</a>
-                            <a href="">Регистрация</a>
-                        </div>
-                        <button onclick="validateForm('sign-in-email', 'sign-in-pass')"
-                            class="button modal-sign-in-submit" type="submit">Войти в личный кабинет</button>
-                    </form>
-                </div>
-                <div class="sign-in-with">
-                    <h3>Войти с помощью</h3>
-                    <button class="facebook-modal-icon button with-icon" type="submit" class="button with-icon"><img
-                            src="img/facebook-modal-icon.png" alt=""> Facebook</button>
-                    <button type="submit" class="button with-icon twitter-modal-icon"><img
-                            src="img/twitter-modal-icon.png"></img> Twitter</button>
-                    <button type="submit" class="button with-icon goodle-modal-icon">
-                        <img src="img/goodle-modal-icon.png" alt="">Google</button>
-                </div>
-            </div>
         </div>
         <nav class="nav-contcts-block main-center">
             <div class="callback-modal-bg">
@@ -642,20 +642,20 @@
                 <div class="footer-block-1-email-form">
                     <h3>Будьте в курсе новостей и новинок!</h3>
                     <h2>Подписывайтесь на рассылку</h2>
+                    <div class="email-succ-modal-bg">
+                        <div class="email-succ-close"><img src="img/modal-close-icon.png" alt=""></div>
+                        <div class="email-succ-modal-content">
+                            <div class="email-succ-callback">
+                                <h3>Вы успешно подписаны ны рассылку!</h3>
+                            </div>
+                        </div>
+                    </div>
                     <div class="footer-search-form">
                         <form action="" class="footer-search-form">
                             <input class="search-bar footer-search-bar" type="e-mail"
                                 placeholder="Укажите свой email для подписки">
-                            <button disabled id="email-nav" class="footer-email-button button">Подписаться</button>
+                            <button id="email-nav" class="footer-email-button button">Подписаться</button>
                         </form>
-                    </div>
-                </div>
-            </div>
-            <div class="email-succ-modal-bg">
-                <div class="email-succ-close"><img src="img/modal-close-icon.png" alt=""></div>
-                <div class="email-succ-modal-content">
-                    <div class="email-succ-callback">
-                        <h3>Вы успешно подписаны ны рассылку!</h3>
                     </div>
                 </div>
             </div>
