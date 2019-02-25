@@ -556,6 +556,10 @@ html{
     text-decoration: none;
     border-bottom: 1px solid transparent;
 }
+.form-top-links a{
+    text-decoration: none;
+    color: #afafaf;
+}
 .form-top-links:hover{
     border-bottom: 1px solid #ffc925;
 }
