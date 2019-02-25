@@ -294,6 +294,13 @@ html{
     position: relative;
     text-align: center;
 }
+.email-succ-close{
+    top: -8%;
+    right: -20%;
+    cursor: pointer;
+    z-index: 12;
+	position: absolute;
+}
 .pop-up-callback div, .pop-up-callback h3{
     width: 70%;
     text-align: left;
