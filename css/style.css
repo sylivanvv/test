@@ -271,7 +271,6 @@ html{
     position: relative;
     text-align: center;
 }
-
 .email-succ-modal-bg {
 	background-color: rgba(0, 0, 0, 0.8);
 	width: 100%;
@@ -421,7 +420,7 @@ html{
     align-items: center;
     background-color: #db7200;
     padding: 0;
-    height: 50px;
+    height: 56px;
 }
 .main-aside-toggle{
     padding-right: 23px;
@@ -565,7 +564,7 @@ html{
     background: url(../img/form-top-link2.png) left center no-repeat;
 }
 .form-top-links:hover .form-top-link2{
-    background-position: -36px 0px;
+    background-position: -37px 0px;
 }
 .form-top-link3{
     margin-right: 13px;
