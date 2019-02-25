@@ -142,6 +142,7 @@ html{
 }
 .rememberMe-container input{
     width: 10%;
+    vertical-align:top;
 }
 .modal-sign-in-submit{
     height: 50px;
