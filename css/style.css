@@ -668,7 +668,7 @@ html{
 .filter-tabs-flex-container span{
     padding-bottom: 1px;
     border-bottom: 1px solid white;
-    width: 23%;
+    
 }
 .filter-tabs-flex-container span:hover,
 .filter-tabs-flex-container span:focus{
