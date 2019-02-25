@@ -520,6 +520,7 @@ html{
     border-left: 1px solid #dadada;
     color:#929292; font-size: 14px; padding-left: 28px;
 }
+::-moz-placeholder {color: color:#929292;opacity: 1;}
 ::placeholder {color:#929292; font-size: 0.875rem;}
 .filter-section{
     width: 100%;
