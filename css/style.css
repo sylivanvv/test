@@ -295,8 +295,8 @@ html{
     text-align: center;
 }
 .email-succ-close{
-    top: -8%;
-    right: -20%;
+    top: 35%;
+    right: 32%;
     cursor: pointer;
     z-index: 12;
 	position: absolute;
