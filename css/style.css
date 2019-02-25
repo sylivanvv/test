@@ -685,7 +685,7 @@ html{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 21%;
     border-bottom: unset !important;
     height: 38px;
@@ -694,10 +694,6 @@ html{
     margin-top: 0;
 }
 .filter-by-price{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
     font-size: 0.875rem;
     color: white;
     border-bottom: unset !important;
