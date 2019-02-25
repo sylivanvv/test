@@ -52,7 +52,7 @@ html{
     text-decoration: none;
     color: #c2c2c2;
 }
-.nav-links li:hover{
+.nav-links a:hover{
     border-bottom: 2px solid #ffc925;
 }
 .nav-links li:hover a{
