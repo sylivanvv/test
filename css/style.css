@@ -659,7 +659,7 @@ html{
     justify-content: space-between;
     align-items: flex-end;
 }
-.filter-tabs-flex-container div{
+.filter-tabs-flex-container span{
     padding-bottom: 1px;
     border-bottom: 1px white;
 }
