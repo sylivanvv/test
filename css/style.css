@@ -725,19 +725,6 @@ input{
 .filter-tabs-flex-container input{
     text-align: center;
 }
-.filter-tabs-flex-container select::after,
-.filter-tabs-flex-container input::after{
-    content: '';
-    width: 100%;
-    background-color: white;
-    border: 1px solid white;
-}
-.filter-tabs-flex-container select:hover
-.filter-tabs-flex-container select::after,
-.filter-tabs-flex-container input:hover
-.filter-tabs-flex-container input::after{
-    background-color: #ff8900;
-}
 .filter-tabs-flex-container input::placeholder{
     text-align: center;
     padding: unset;
