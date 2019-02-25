@@ -557,8 +557,10 @@ html{
     border-bottom: 1px solid transparent;
 }
 .form-top-links:hover{
-    color: white;
     border-bottom: 1px solid #ffc925;
+}
+.form-top-links:hover a{
+    color: white;
 }
 .form-top-link1{
     margin-right: 13px;
