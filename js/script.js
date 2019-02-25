@@ -9,20 +9,20 @@ function showModal(id, modalContent, bgClassName, closeName){
         modalLink.addEventListener("click", function() {
              modalContent.style.display = "flex";
         });
-    }        
-    closeModalContent.addEventListener("click", function() {
-        modalBg.style.display = "none";
-    });
-    window.onclick = function(event) {
-        if (event.target == modalContent || event.target == closeModalContent)
-         {
+        closeModalContent.addEventListener("click", function() {
             modalBg.style.display = "none";
-        }
-      }
+        });
+        window.onclick = function(event) {
+            if (event.target == modalBg || event.target == closeModalContent)
+             {
+                modalBg.style.display = "none";
+            }
+          }
+    }
 }
-showModal('modal-nav', 'sign-in-modal-content', '.close');
+showModal('modal-nav', 'sign-in-modal-content', '.sign-in-modal-bg', '.close');
 showModal('callback-nav', "callback-modal-content", '.callback-modal-bg', '.callback-close');
-showModal('email-nav', 'email-succ-modal-content', '.email-succ-close');
+showModal('email-nav', 'email-succ-modal-content', '.email-succ-modal-bg', '.email-succ-close');
 window.onload = function(){
     MaskedInput({
         elm: document.getElementById('callback-phone'),
