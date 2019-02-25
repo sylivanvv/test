@@ -661,7 +661,10 @@ html{
 }
 .filter-tabs-flex-container span{
     padding-bottom: 1px;
-    border-bottom: 1px white;
+    border-bottom: 1px solid white;
+}
+.filter-tabs-flex-container span:hover{
+    border-bottom: 1px solid #ff8900;
 }
 .tab-content2{
     justify-content: space-around;
