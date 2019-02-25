@@ -45,7 +45,7 @@ html{
     display: flex;
     align-items: center;
     vertical-align: middle;
-    padding-right: 17px;
+    margin-right: 17px;
     height: 96%;
 }
 .nav-links a{
