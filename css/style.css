@@ -1261,7 +1261,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         text-transform: uppercase;
     }
 } 
-
 @media only screen and (max-width: 1435px){
     html{
         font-size: 14px;
@@ -1273,7 +1272,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         width: 67%;
     }  
     .filter-tabs-flex-container select{
-        min-width: 130px;
+        min-width: 140px;
     }
     .filter-from input, .filter-to input{
         width: 35px;
@@ -1363,7 +1362,10 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         margin-right: unset;
     }
     .filter-tabs-flex-container select{
-        min-width: 115px;
+        min-width: 130px;
+    }
+    .filter-price-container{
+        width: 21%;
     }
     .main-aside{
         width: 27%;
@@ -1456,7 +1458,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         font-size: 11px;
     }
     .filter-tabs-flex-container select{
-        min-width: 100px;
+        min-width: 120px;
     }    
     .filter-from input, .filter-to input{
         width: 30px;
