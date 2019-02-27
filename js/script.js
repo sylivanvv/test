@@ -6,9 +6,7 @@ function showModal(id, modalContent, bgClassName, closeName){
     var modalBg = document.querySelector(bgClassName);
     var closeModalContent = document.querySelector(closeName);
     if(modalLink && modalContent && closeModalContent){
-        modalLink.addEventListener("click", function() {
-             modalContent.style.display = "flex";
-        });
+        modalContent.style.display = "flex";
         closeModalContent.addEventListener("click", function() {
             modalBg.style.display = "none";
         });
