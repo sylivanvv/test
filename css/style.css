@@ -706,6 +706,7 @@ html{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    width: 22%;
 }
 .filter-price-container div{
     margin-top: 0;
