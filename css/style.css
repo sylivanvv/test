@@ -1837,11 +1837,6 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         border-right: unset;
     }
 }
-@media only screen and (max-width: 540px){
-    .filter-section-tabs{
-        height: 200px;
-    }
-}
 @media only screen and (max-width: 440px){
     .filter-section-tabs{
         height: 260px;
@@ -1850,7 +1845,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         min-width: 125px;
     } 
     .filter-price-container{
-        width: 45%;
+        width: 34%;
     }
     .filter-search-bar{
         width: 100%;
@@ -1875,7 +1870,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
        margin-top: 10px;
     }
 }
-@media only screen and (max-width: 337px){
+@media only screen and (max-width: 374px){
     .filter-section-tabs{
         height: 425px;
     }
