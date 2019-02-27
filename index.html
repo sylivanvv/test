@@ -67,7 +67,7 @@
                                     <div id='email-container'>Ваш email</div>
                                     <input required class="js-email" id="sign-in-email" placeholder="mikel_ivanov98@gmail.com" type="email">
                                     <div id='pass-comtainer'>Пароль</div>
-                                    <input minlength="2" class="js-pass" id="sign-in-pass" placeholder="*********" type="password">
+                                    <input minlength="4" class="js-pass" id="sign-in-pass" placeholder="*********" type="password">
                                     <div class="rememberMe-container">
                                         <input id="rememberMe" type="checkbox">
                                         <label class="rememberMe" for="rememberMe">
@@ -196,7 +196,7 @@
             <div class="filter-form">
                 <div class="filter-search-bar">
                     <form action="index.html">
-                        <input type="search" class="search-bar" placeholder="Поиск по сайту">
+                        <input required minlength="2" type="search" class="search-bar" placeholder="Поиск по сайту">
                         <select class="search-bar-select" name="select" id="">
                             <option selected disabled>Все категории</option>
                             <option value="1">Item1</option>
