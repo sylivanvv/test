@@ -548,9 +548,6 @@ html{
     padding: 22px 0px 0px 0px;
 }
 .form-top-links{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
     padding-bottom: 31px;
     font-size: 1.125rem;
     text-decoration: none;
@@ -559,6 +556,9 @@ html{
 .form-top-links a{
     text-decoration: none;
     color: #afafaf;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 .form-top-links:hover{
     border-bottom: 1px solid #ffc925;
