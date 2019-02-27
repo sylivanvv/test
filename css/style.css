@@ -1180,7 +1180,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
 }
 @media only screen and (max-width: 1730px){
     .filter-form{
-        width: 72%;;
+        width: 71%;;
     }
     .filter-tabs-flex-container select{
         min-width: 180px;
@@ -1194,7 +1194,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
 } 
 @media only screen and (max-width: 1630px){
     .filter-form{
-        width: 71%;
+        width: 70%;
     }
     .filter-tabs-flex-container select{
         min-width: 170px;
@@ -1215,7 +1215,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         font-size: 14px;
     }
     .filter-form{
-        width: 70%;
+        width: 69%;
     }
     .filter-from input, .filter-to input{
     width: 50px;
