@@ -1759,7 +1759,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         padding: 0px 15px;
     }
     .filter-tabs-flex-container select{
-        min-width: 100px;
+        min-width: 120px;
     }    
     .filter-from input, .filter-to input{
         width: 30px;
@@ -1802,6 +1802,11 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .nav-contcts-block{
         margin-bottom: 50px;
     }
+}
+@media only screen and (max-width: 600px){
+    .filter-tabs-flex-container select{
+        min-width: 110px;
+    }   
 }
 @media only screen and (max-width: 500px){
     .filter-section-tabs{
