@@ -36,9 +36,9 @@ $(function(){
 });
 window.jQuery(function($) {
     var $forms = $('.form');
-    var $inputEmail = $form.find('.js-email');
-    var $inputPass = $form.find('.js-pass');
-    var $inputTel = $form.find('.js-tel');
+    var $inputEmail = $forms.find('.js-email');
+    var $inputPass = $forms.find('.js-pass');
+    var $inputTel = $forms.find('.js-tel');
     $forms.on('submit', function (event) {
         event.preventDefault();
         validateForm($(this));
