@@ -65,9 +65,9 @@
                                 <div class="sign-in-form-container">
                                     <h3>Вход в личный кабинет</h3>
                                     <div id='email-container'>Ваш email</div>
-                                    <input required id="sign-in-email" placeholder="mikel_ivanov98@gmail.com" type="email">
-                                    <div required minlength="2" id='pass-comtainer'>Пароль</div>
-                                    <input required id="sign-in-pass" placeholder="*********" type="password">
+                                    <input class="js-email" id="sign-in-email" placeholder="mikel_ivanov98@gmail.com" type="email">
+                                    <div id='pass-comtainer'>Пароль</div>
+                                    <input class="js-pass" id="sign-in-pass" placeholder="*********" type="password">
                                     <div class="rememberMe-container">
                                         <input id="rememberMe" type="checkbox">
                                         <label class="rememberMe" for="rememberMe">
@@ -78,8 +78,8 @@
                                     <a href="">Забыли пароль?</a>
                                     <a href="">Регистрация</a>
                                 </div>
-                                <button onclick="validateForm('sign-in-email', 'sign-in-pass')"
-                                    class="button modal-sign-in-submit" type="submit">Войти в личный кабинет</button>
+                                <button 
+                                class="button modal-sign-in-submit" type="submit">Войти в личный кабинет</button>
                             </form>
                         </div>
                         <div class="sign-in-with">
@@ -104,9 +104,9 @@
                     <div class="callback-close"><img src="img/modal-close-icon.png" alt=""></div>
                     <div class="pop-up-callback">
                         <h3>Перезвоните мне</h3>
-                        <form id="sign-form" action="">
+                        <form class="form" id="sign-form" action="">
                             <div>Номер телефона
-                                <input id="callback-phone"
+                                <input class="js-tel" id="callback-phone"
                                      type="tel">
                             </div>
                             <button class="callback-modal-button button" type="submit">
@@ -650,11 +650,11 @@
                         </div>
                     </div>
                     <div class="footer-search-form">
-                        <div class="footer-search-form">
-                            <input class="search-bar footer-search-bar" type="e-mail"
+                        <form class="footer-search-form form">
+                            <input class="search-bar footer-search-bar js-email" type="e-mail"
                                 placeholder="Укажите свой email для подписки">
                             <button onclick="showModal('email-nav', 'email-succ-modal-content', '.email-succ-modal-bg', '.email-succ-close');" id="email-nav" class="footer-email-button button">Подписаться</button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
