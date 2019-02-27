@@ -1634,7 +1634,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         width: 60%;
     }
 }
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 755px){
     .main-center{
         width: 95%;
     } 
@@ -1734,7 +1734,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         width: 100%;
     }
 }
-@media only screen and (max-width: 610px){
+@media only screen and (max-width: 650px){
     .main-center{
         width: 97%;
     } 
