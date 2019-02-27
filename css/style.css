@@ -718,6 +718,8 @@ html{
     border-bottom: unset !important;
     margin-right: 5px;
     height: 40px;
+    display: flex;
+    align-items: center;
 }
 .filter-from{
     margin-right: 10px;
