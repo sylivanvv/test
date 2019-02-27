@@ -543,6 +543,7 @@ html{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 22px 0px 0px 0px;
@@ -1585,16 +1586,19 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
     .filter-section-submit{
         height: 30px;
     }
+    .filter-tabs-flex-container select {
+        min-width: 105px;
+    }
 }
 @media only screen and (max-width: 860px){    
     .main-center{
         width: 84%;
     }
     .filter-tabs-flex-container select{
-        min-width: 85px;
+        min-width: 100px;
     }    
     .filter-from input, .filter-to input{
-        width: 22px;
+        width: 30px;
     }
     .filter-form{
         width: 78%;
@@ -1638,7 +1642,7 @@ box-shadow: 0px 1px 10px 3px rgba(182,229,216,0.7);
         display: block;
     }
     .filter-tabs-flex-container select{
-        min-width: 115px;
+        min-width: 130px;
     }    
     .filter-from input, .filter-to input{
         width: 35px;
