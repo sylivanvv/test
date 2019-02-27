@@ -668,7 +668,6 @@ html{
 .filter-tabs-flex-container span{
     padding-bottom: 1px;
     border-bottom: 1px solid white;
-    
 }
 .filter-tabs-flex-container span:hover,
 .filter-tabs-flex-container span:focus{
@@ -684,6 +683,7 @@ html{
     padding-left: 15px;
     border: unset;
     margin-top: 24px;
+    min-width: 200px;
 }
 .filter-tabs-flex-container select{
  -webkit-appearance: none;
