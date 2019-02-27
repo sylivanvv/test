@@ -34,7 +34,7 @@ $(function(){
     );  
     prependTo:'.slick-nav-menu';
 });
-window.jQuery(function($) {
+/*window.jQuery(function($) {
     var $forms = $('.form');
     var $inputEmail = $forms.find('.js-email');
     var $inputPass = $forms.find('.js-pass');
